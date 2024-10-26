@@ -35,7 +35,7 @@ I will also provide a tutorial asap, but in the meantime, in order not to comple
 >>>     
 >>>         print(abc)
 
-19. What you see (i.e. abc_collection) is the result of .fullPermutation >>> .translate individually >>> compress tuple -> str >>> save
+19. What you see (i.e. abc_collection) is the result of .fullPermutation >>> .translate individually >>> compress tuple -> str >>> save. Via the operations mentioned above, the grids of abc_collection can be translated and permuted back and forth. NOTICE: the regular procedure produces said  3.359.232 grids compressed to strings; in memory, the corresponding .txt file takes 285.5 MB, which is too large for upload. Thus "ABC_abbreviated_0.txt" is an abbreiavted collection, containing merely 50.000 grid strings. 
 20. The processing of large sets of grid collections, in turn, is the job of the class GridCollection (work in progress)
 21. As mentioned, the documentation for the Grid class is not complete yet, but it should be sufficently explanatory to aid in further explorations!  
 
