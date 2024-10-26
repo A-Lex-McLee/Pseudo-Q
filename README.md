@@ -7,9 +7,15 @@ This repository is part of a side project of mine called "The syntax of Sudoko g
 I will provide a tutorial asap, but in the meantime, in order not to completely deprive you of any sudokulogical excitement, here are some guidelines:
 
 1. download the files (minimally, the .py files) from the repository into the same directory
-2. fgdgfg
+2. run 'Pseudo_Q.py' in the shell/IDE of your choice
+3. instantiate a Grid object: >>> grid = Grid()
+4. (one way to) initialize the grid: >>> grid.insert(grd3) *1
+5. show the grid coordinates: >>> grid.showFrame()
+6. show the grid (much easier to read than output of step 5.): >>> grid.showGrid()
 
 
+
+*1 Five valid grid tuples, called grd1, grd2, grd3, grd4, grd4, are provided to get started (free of charge!)
 
 'Pseudo_Q' 
 
