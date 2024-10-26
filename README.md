@@ -33,7 +33,7 @@ I will provide a tutorial asap, but in the meantime, in order not to completely 
 >>>     
 >>>         print(abc)
 
-19. What you see -- abc_collection -- is the result of the result of .fullPermutation >>> .translate individually >>> compress tuple -> str >>> save
+19. What you see (i.e. abc_collection) is the result of .fullPermutation >>> .translate individually >>> compress tuple -> str >>> save
 20. The processing of large sets of grid collections, in turn, is the job of the class GridCollection (work in progress)
 21. The documentation for the Grid class is not complete yet, but it should suffice to aid in further explorations!  
 
