@@ -23,9 +23,15 @@ I will provide a tutorial asap, but in the meantime, in order not to completely 
 15. translate the grid internally (int/str <-> int/str): >>> grid.recode(encode=('C','B','H','G','F','I','D','E','A',)) *6
 16. go back to int-view (e.g. step 14.)
 17. if you are very patient (min. 8 minutes), try the following: >>> perms = grid.fullPermutation()   ---  Congratulations! You have successfully generated the basic permutation series of a grid resulting in 3!^8*2 = 3.359.232 valid grids. *7, *8
-18.
-19.
-20. s
+18. Do not attempt to open the .txt files manually; for inspection, try this:
+19. 1. dsfdsfds
+    2. 
+20. 2. dfdsfds
+    3. 
+21. 
+22. 
+23.
+24. s
 
 
 Notes:
@@ -37,7 +43,7 @@ Notes:
 - 5: you might wanna be patient ... 
 - 6: for visualizing the result, repeat step 6. afterwards, i.e. >>> grid.showGrid()
 - 7: for access, unpack the iterator (e.g. >>> perms = tuple(perms)), or iterate manually (>>> next(perms))
-- 8. considering that there are 9! = 362.880 possible encoders for the .recode() method (step 14.), 1.218.998.108.160 valid (surface-distinct) grids can be produced on the basis of one.
+- 8: considering that there are 9! = 362.880 possible encoders for the .recode() method (step 14.), altogether 1.218.998.108.160 valid (surface-distinct) grids can be produced on the basis of one.
 - 
 
 
