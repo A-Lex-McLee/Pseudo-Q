@@ -4,7 +4,9 @@ Sudoku is really fun -- but it's also really hard, in fact, it is NP hard.
 This does not merely concern the solving of actual Sudoku puzzles, but also the grid architecture as a whole, as observed e.g. in the attempt to generate a random (valid) Grid. 
 This repository is part of a side project of mine called "The syntax of Sudoko grids" (some might prefer the label 'geometry' instead of 'syntax', but I'm a linguist and I call the shots here!). It provides the basic architecture to instantiate, generate, manipulate and permute Sudoku grids. 
 
-I will provide a tutorial asap, but in the meantime, in order not to completely deprive you of any sudokulogical excitement, here are some guidelines:
+Notice that this is work in progress; some functionalities and parts of the documentation are still in the making; some aspects may be modified or scrapped altogether in future versions.  Feedback is always welcome & appreciated
+
+I will also provide a tutorial asap, but in the meantime, in order not to completely deprive you of any sudokulogical excitement, here are some kick-off guidelines:
 
 1. download the files (minimally, the .py files) from the repository into the same directory
 2. run 'Pseudo_Q.py' in the shell/IDE of your choice
@@ -35,7 +37,7 @@ I will provide a tutorial asap, but in the meantime, in order not to completely 
 
 19. What you see (i.e. abc_collection) is the result of .fullPermutation >>> .translate individually >>> compress tuple -> str >>> save
 20. The processing of large sets of grid collections, in turn, is the job of the class GridCollection (work in progress)
-21. The documentation for the Grid class is not complete yet, but it should suffice to aid in further explorations!  
+21. As mentioned, the documentation for the Grid class is not complete yet, but it should be sufficently explanatory to aid in further explorations!  
 
 
 
