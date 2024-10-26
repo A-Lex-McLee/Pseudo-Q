@@ -27,13 +27,18 @@ I will provide a tutorial asap, but in the meantime, in order not to completely 
     1. | >>> with open("ABC_Perm_0.txt", "r") as f:
     2. | >>> ___   abc_collection = json.load(f)
     3. | >>> for abc in abc_collection[:100]:
-    4. | >>>    print(abc)
+    4. | >>> ___   print(abc)
 20. 2. dfdsfds
     3. 
 21. 
 22. 
 23.
 24. s
+
+>>> with open("ABC_Perm_0.txt", "r") as f:
+>>>     abc_collection = json.load(f)
+
+
 
 
 Notes:
