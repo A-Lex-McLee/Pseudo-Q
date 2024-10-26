@@ -37,7 +37,11 @@ I will provide a tutorial asap, but in the meantime, in order not to completely 
 
 >>> with open("ABC_Perm_0.txt", "r") as f:
 >>> 
->>>     abc_collection = json.load(f)
+>>>         abc_collection = json.load(f)
+>>> 
+>>> for abc in abc_collection[:100]:
+>>>     
+>>>         print(abc)
 
 
 
