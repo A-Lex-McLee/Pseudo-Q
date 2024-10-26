@@ -6,7 +6,7 @@ This repository is part of a side project of mine called "The syntax of Sudoko g
 
 Notice that this is work in progress; some functionalities and parts of the documentation are still in the making; some aspects may be modified or scrapped altogether in future versions.  Feedback is always welcome & appreciated (writeTo nonintersective at gmail dot com).
 
-I will also provide a tutorial asap, but in the meantime, in order not to completely deprive you of any sudokulogical excitement, here are some kick-off guidelines:
+I will also provide a tutorial asap, but in the meantime, in order not to completely deprive you of any sudokulogical excitement, here are some kick-off guidelines (nb: *42 refers to a footnote):
 
 1. download the files (minimally, the .py files) from the repository into the same directory
 2. run 'Pseudo_Q.py' in the shell/IDE of your choice
