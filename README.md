@@ -13,15 +13,30 @@ I will provide a tutorial asap, but in the meantime, in order not to completely 
 5. show the grid coordinates: >>> grid.showFrame()  *2
 6. show the grid: >>> grid.showGrid() *3
 7. scan the grid box-wise: >>> grid.scanGrid()  *4
+8. generate a random grid (i):  >>> grid.generateGrid_flat()  *5, *6
+9. generate a random grid (ii): >>> grid.generateGrid_deep()  *5, *6
+10. rotate the grid by 90°: >>> grid.rotate()  *6
+11. reflect the grid along the diagonal axis: >>> grid.diaflect() *6
+12. translate the grid categorically (int <-> str): >>> grid.translate() *6
+13. repeat step 12. once more *6
+14. translate the grid internally (int/str <-> int/str): >>> grid.recode(encode=(9,8,7,6,5,4,3,2,1)) *6
+15. translate the grid internally (int/str <-> int/str): >>> grid.recode(encode=('C','B','H','G','F','I','D','E','A',)) *6
+16. go back to int-view (e.g. step 14.)
+17. if you are very patient (min. 8 minutes), try the following: >>> perms = grid.fullPermutation() 
+   con.  
+19.
+20. dd
+21. 
 
 
 Notes:
 
-- *1 Five valid grid tuples, called grd1, grd2, grd3, grd4, grd4, are provided to get started (free of charge!)
-- *2 looks like a protocol; not easy to read
-- *3 much more reader-friendly
-- *4 by creating 'ad-hoc' boxes inside the grid (i.e. no overflow)
-- 
+- 1: Five valid grid tuples, called grd1, grd2, grd3, grd4, grd4, are provided to get started (free of charge!)
+- 2: looks like a protocol; not easy to read
+- 3: much more reader-friendly
+- 4: by creating 'ad-hoc' boxes inside the grid (i.e. no overflow)
+- 5: you might wanna be patient ... 
+- 6: for visualizing the result, repeat step 6. afterwards, i.e. >>> grid.showGrid()
 - 
 
 
