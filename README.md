@@ -24,8 +24,10 @@ I will provide a tutorial asap, but in the meantime, in order not to completely 
 16. go back to int-view (e.g. step 14.)
 17. if you are very patient (min. 8 minutes), try the following: >>> perms = grid.fullPermutation()   ---  Congratulations! You have successfully generated the basic permutation series of a grid resulting in 3!^8*2 = 3.359.232 valid grids. *7, *8
 18. Do not attempt to open the .txt files manually; for inspection, try this:
-19. dfdsfdsfdsfdsfdsfsdf 1. dsfdsfds
-    2. 
+    1. dsfds
+    2. fds
+    3. 
+    4. 
 20. 2. dfdsfds
     3. 
 21. 
