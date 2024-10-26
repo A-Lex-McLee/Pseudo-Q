@@ -10,12 +10,25 @@ I will provide a tutorial asap, but in the meantime, in order not to completely 
 2. run 'Pseudo_Q.py' in the shell/IDE of your choice
 3. instantiate a Grid object: >>> grid = Grid()
 4. (one way to) initialize the grid: >>> grid.insert(grd3) *1
-5. show the grid coordinates: >>> grid.showFrame()
-6. show the grid (much easier to read than output of step 5.): >>> grid.showGrid()
+5. show the grid coordinates: >>> grid.showFrame()  *2
+6. show the grid: >>> grid.showGrid() *3
+7. scan the grid box-wise: >>> grid.scanGrid()  *4
+
+
+Notes:
+
+- *1 Five valid grid tuples, called grd1, grd2, grd3, grd4, grd4, are provided to get started (free of charge!)
+- *2 looks like a protocol; not easy to read
+- *3 much more reader-friendly
+- *4 by creating 'ad-hoc' boxes inside the grid (i.e. no overflow)
+- 
+- 
 
 
 
-*1 Five valid grid tuples, called grd1, grd2, grd3, grd4, grd4, are provided to get started (free of charge!)
+
+
+
 
 'Pseudo_Q' 
 
